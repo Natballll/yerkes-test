@@ -21,6 +21,18 @@
             box-sizing: border-box;
         }
 
+        .wide-center-panel {
+            width: 90%;
+            max-width: 800px;
+
+            padding-top: 2rem;
+
+            box-sizing: border-box;
+
+            /* Flexible height */
+            height: auto;
+        }
+
         .center-panel {
             width: 90%;
             max-width: 600px;
@@ -58,6 +70,13 @@
             color: #333;
         }
 
+        h2 {
+            font-family: "Garamond", sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: #333;
+        }
+
         /* Desktop sizing */
         @media (min-width: 768px) {
             .center-panel {
@@ -68,6 +87,13 @@
 </head>
 
 <body>
+
+    <div class="center-panel-wrapper">
+        <div class="wide-center-panel">
+            <h2 align="center">Bringing the Stars Within Reach</h2>
+            <p align="center">May 12, 2026 | Media and Story by Elijah Tan | ~10 Minute Read</p>
+        </div>
+    </div>
 
     <div class="center-panel-wrapper">
         <div class="center-panel">
@@ -221,7 +247,7 @@
     <div class="center-panel-wrapper">
         <div class="center-panel">
 
-            <h1>The Life of a Graduate Student</h1>
+            <h1>Life at the Observatory</h1>
 
             <div class="hero-image">
                 <img src="Owl.png" alt="Owl">
